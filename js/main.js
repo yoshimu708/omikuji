@@ -1,1 +1,5 @@
-'user strict'
+'user strict';
+
+{
+  
+}
