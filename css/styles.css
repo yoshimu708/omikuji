@@ -12,22 +12,39 @@ body{
   text-decoration: underline;
 }
 
+.info{
+  text-align: center;
+  margin-top:10%;
+}
+
 
 #btn{
   width:200px;
   height:200px;
   background-color: #FF9933;
-  margin:10% auto;
+  margin:0 auto;
   border-radius: 50%;
   text-align: center;
   line-height: 200px;
+  cursor:pointer;
+  box-shadow: 0 10px 0 	#CC6600;
+  user-select:none;
+}
+
+#btn:hover{
+  opacity:0.7;
+}
+
+#btn:active{
+  box-shadow: 0 2px 0 	#CC6600;
+  margin-bottom:8%;
 }
 
 #result{
   width:80%;
   height:250px;
   padding: 0.5em 1em;
-  margin: 0 auto ;
+  margin: 10% auto ;
   color: #474747;
   background: whitesmoke;
   border-left: double 7px #4ec4d3;
@@ -41,9 +58,11 @@ body{
   height:40%;
   margin-bottom:5%;
   border:5px dashed #3CB371;
+  display:none;
 }
 
 #result p {
   margin: 0; 
   padding: 0 10%;
+  display:none;
 }
